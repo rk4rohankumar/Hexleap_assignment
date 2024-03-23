@@ -15,12 +15,12 @@ const DarkModeToggle: React.FC = () => {
 
   return (
     <div className="flex items-center">
-      <span className="mr-2">Dark Mode:</span>
+      <span className="mr-2 ">Dark Mode:</span>
       <button
         onClick={toggleDarkMode}
         className={`${
           darkMode ? "bg-gray-900" : "bg-gray-200"
-        } text-white font-bold py-2 px-4 rounded`}
+        } text-black dark:text-white dark:bg-slate-600 font-bold py-2 px-4 rounded`}
       >
         {darkMode ? "On" : "Off"}
       </button>
