@@ -9,7 +9,7 @@ interface CardProps {
 const Card: React.FC<CardProps> = ({ title, imageUrl, description }) => {
   const bgColor = "dark" ? "bg-gray-600" : "bg-white";
   return (
-    <div className="relative max-w-xs h-[490px] rounded-sm  mx-5  shadow-xl w-[260px] dark:bg-gray-700">
+    <div className="relative max-w-xs h-[490px] rounded-sm w-full ml-5  shadow-xl sm:w-[260px] dark:bg-gray-700">
       <div className="p-2">
         {/* Ad label */}
         <div className="absolute top-2 right-2 bg-black text-white px-2 py-1 rounded-sm">

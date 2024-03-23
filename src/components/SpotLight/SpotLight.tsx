@@ -38,7 +38,17 @@ const SpotLight: React.FC<SpotLightProps> = ({}) => {
     },
     // Add more data as needed
   ];
-
+  const customArrowStyles = {
+    // width: "50px",
+    // height: "50px",
+    // borderRadius: "50%",
+    // background: "rgba(0, 0, 0, 0.5)",
+    // color: "white",
+    // display: "flex",
+    // justifyContent: "center",
+    // alignItems: "center",
+    // cursor: "pointer",
+  };
   const settings = {
     dots: false,
     infinite: true,
@@ -62,10 +72,21 @@ const SpotLight: React.FC<SpotLightProps> = ({}) => {
         },
       },
     ],
+    nextArrow: (
+      <div style={customArrowStyles} >
+        <i className="fa-thin fa-square-chevron-right"></i>
+      </div>
+    ),
+
+    prevArrow: (
+      <div style={customArrowStyles}>
+        <i className="fa-thin fa-square-chevron-left"></i>
+      </div>
+    ),
   };
 
   return (
-    <div className="container mx-auto px-4 bg-slate-100 text-black dark:text-white mb-20 py-8 w-10/12 dark:bg-[#071717] rounded-sm  bg-gradient-to-b  dark:from-[#041f1fa3]  dark:to-[#2f0c2fa3]">
+    <div className="container mx-auto px-4 bg-white mb-20 py-8 w-10/12 dark:bg-[#071717] rounded-sm  bg-gradient-to-b  dark:from-[#041f1fa3]  dark:to-[#2f0c2fa3]">
       <div className="mx-auto" style={{ width: "80%" }}>
         <h1 className="text-center mt-10 text-5xl font-bold">
           Collection Spotlight

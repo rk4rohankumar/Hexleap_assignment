@@ -3,7 +3,7 @@ import Card from "./PromotionCard";
 
 const App = () => {
   return (
-    <div className="flex justify-center items-center m-auto  h-60 ">
+    <div className="flex justify-center items-center m-auto   ">
       <Card
         title="Advertisement Title"
         imageUrl="https://via.placeholder.com/300"
