@@ -6,17 +6,14 @@ const Navbar = () => {
       <nav className="bg-white border-gray-200 dark:bg-gray-900 text-black dark:text-white">
         <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
           <a
-            href="https://flowbite.com/"
+            href="https://hexleap.com/"
             className="flex items-center space-x-3 rtl:space-x-reverse"
           >
             <img
-              src="https://flowbite.com/docs/images/logo.svg"
-              className="h-8"
+              src="https://pouch.jumpshare.com/preview/rp2fls-8OeHrI3hInk_0E4GM-YYu568XZGod6UQBtzbxSAX9cAdTIZK5i-TTXgHuzIPJE1TGRuKNbVfa5xcJo5EkNn_5OTqjIofrkgXAbE4"
+              className="h-8 text-black"
               alt="Flowbite Logo"
             />
-            <span className="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">
-              Hexleap
-            </span>
           </a>
           <button
             data-collapse-toggle="navbar-default"
