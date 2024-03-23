@@ -22,7 +22,7 @@ const Card: React.FC<CardProps> = ({
 
   return (
     <div
-      className={`rounded-sm overflow-hidden shadow-lg w-full m-5 dark:bg-gray-700 bg-white`}
+      className={`rounded-sm  shadow-lg w-full m-5 dark:bg-gray-700 bg-white`}
     >
       <div className={`p-2 `}>
         <img
