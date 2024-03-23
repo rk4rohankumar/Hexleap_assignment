@@ -4,6 +4,8 @@ import "./globals.css";
 import { ThemeProvider } from "next-themes";
 import {useState, useEffect} from 'react';
 import { useTheme } from "next-themes";
+import {useState, useEffect} from 'react';
+import { useTheme } from "next-themes";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -18,6 +20,13 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
+    <html lang="en">
+      <body className={`${inter.className}` } >
+      <ThemeProvider enableSystem={true} attribute='class'>
+        {children}
+      </ThemeProvider>
+      </body>
+    </html>
     <html lang="en">
       <body className={`${inter.className}` } >
       <ThemeProvider enableSystem={true} attribute='class'>
