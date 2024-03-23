@@ -73,7 +73,7 @@ const SpotLight: React.FC<SpotLightProps> = ({}) => {
       },
     ],
     nextArrow: (
-      <div style={customArrowStyles} >
+      <div style={customArrowStyles}>
         <i className="fa-thin fa-square-chevron-right"></i>
       </div>
     ),
@@ -86,7 +86,7 @@ const SpotLight: React.FC<SpotLightProps> = ({}) => {
   };
 
   return (
-    <div className="container mx-auto px-4 bg-white mb-20 py-8 w-10/12 dark:bg-[#071717] rounded-sm  bg-gradient-to-b  dark:from-[#041f1fa3]  dark:to-[#2f0c2fa3]">
+    <div className="container mx-auto px-4 bg-white text-black dark:text-white mb-20 py-8 w-10/12 dark:bg-[#071717] rounded-sm  bg-gradient-to-b  dark:from-[#041f1fa3]  dark:to-[#2f0c2fa3]">
       <div className="mx-auto" style={{ width: "80%" }}>
         <h1 className="text-center mt-10 text-5xl font-bold">
           Collection Spotlight
