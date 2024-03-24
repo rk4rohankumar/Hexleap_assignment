@@ -10,9 +10,9 @@ const Navbar = () => {
             className="flex items-center space-x-3 rtl:space-x-reverse"
           >
             <img
-              src="https://pouch.jumpshare.com/preview/rp2fls-8OeHrI3hInk_0E4GM-YYu568XZGod6UQBtzbxSAX9cAdTIZK5i-TTXgHuzIPJE1TGRuKNbVfa5xcJo5EkNn_5OTqjIofrkgXAbE4"
+              src="https://www.hexleap.com/_next/static/media/logo-full.190fb9ab.svg"
               className="h-8 text-black"
-              alt="Flowbite Logo"
+              alt="Hexleap Logo"
             />
           </a>
           <button

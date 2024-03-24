@@ -15,10 +15,6 @@ const Card: React.FC<CardProps> = ({
   eventName,
   sportName,
 }) => {
-  // const textColor = darkMode ? "text-gray-100" : "text-gray-800";
-  // const bgColor = darkMode ? "bg-gray-700" : "bg-white";
-  // const bgSports = darkMode ? "bg-gray-800" : "bg-gray-100";
-  // const borderColor = darkMode ? "border-gray-700" : "border-gray-300";
 
   return (
     <div
